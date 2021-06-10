@@ -1,0 +1,41 @@
+@import "./styles/layout";
+@import "./styles/typography";
+@import "./styles/navigationBar";
+@import "./styles/title";
+@import "./styles/about";
+@import "./styles/skill";
+@import "./styles/services";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  // background-color: #21609efa;
+  background-image: url("./images/stripe.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+  // background-color: #5d5f64;
+  background-color: #777;
+}
+
+body {
+  color: #a4acc4;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.2rem;
+}
+
+span {
+  color: #037fff;
+}
