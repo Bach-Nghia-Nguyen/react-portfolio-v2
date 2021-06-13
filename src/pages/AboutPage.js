@@ -32,22 +32,6 @@ const AboutPage = () => {
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
           }
         />
-
-        <ServicesSection
-          image={intelligence}
-          title={"Artificial Intelligence"}
-          text={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-          }
-        />
-
-        <ServicesSection
-          image={gamedev}
-          title={"Game Development"}
-          text={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-          }
-        />
       </div>
     </div>
   );

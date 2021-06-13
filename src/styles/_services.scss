@@ -9,6 +9,11 @@
     border-top: 8px solid #2e344e;
     transition: all 0.4s ease-in-out;
 
+    @media screen and (max-width: 1000px) {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
     &:hover {
       border-top: 8px solid #037fff;
     }
@@ -40,5 +45,10 @@
 .services-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 4rem;
+  margin-top: 2rem;
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
 }
