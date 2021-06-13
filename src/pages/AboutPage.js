@@ -4,8 +4,6 @@ import ImageSection from "../components/ImageSection";
 import SkillsSection from "../components/SkillsSection";
 import ServicesSection from "../components/ServicesSection";
 import design from "../images/design.svg";
-import intelligence from "../images/intelligence.svg";
-import gamedev from "../images/game-dev.svg";
 
 const AboutPage = () => {
   return (
